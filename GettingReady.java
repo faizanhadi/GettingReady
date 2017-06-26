@@ -30,7 +30,7 @@ public class GettingReady {
                 String[] inputNew = StringParse.parsing(input[count-1]);
                 FailOrNot failOrNot = new FailOrNot();
                 String result = failOrNot.passOrFail(inputNew);
-                System.out.println("result " +result+"\n");
+                System.out.println("Output: " +result+"\n");
                 count++;
             }
         }
@@ -41,7 +41,7 @@ public class GettingReady {
             String input = read.nextLine();
             String[] inputNew = StringParse.parsing(input);
             String result = FailOrNot.passOrFail(inputNew);
-            System.out.println("result " +result+"\n");
+            System.out.println("Output: " +result+"\n");
         }
     }
 }
